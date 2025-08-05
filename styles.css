@@ -1,2 +1,35 @@
-
 /* Your CSS Code here. */
+table {
+  border-collapse: collapse;
+  width: 60%;
+  margin: 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+td {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+/* Header Row (XS, S, M, L, XL) */
+tr:first-child td {
+  background-color: #a94442; /* dark red */
+  color: white;
+  font-weight: bold;
+}
+
+/* Waist Row */
+tr:nth-child(2) td {
+  background-color: #c77979; /* lighter red */
+}
+
+/* Chest Row */
+tr:nth-child(3) td {
+  background-color: #e0cfcf; /* soft pink */
+}
+
+/* Sleeve Row */
+tr:nth-child(4) td {
+  background-color: #e8e8e8; /* light gray */
+}
