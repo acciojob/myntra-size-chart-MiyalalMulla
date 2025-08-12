@@ -7,13 +7,13 @@ table {
   font-family: Arial, sans-serif;
 }
 
-td {
+th, td {
   border: 1px solid black;
   padding: 10px;
 }
 
-/* Header Row (XS, S, M, L, XL) */
-tr:first-child td {
+/* Header Row */
+tr:first-child th {
   background-color: #a94442; /* dark red */
   color: white;
   font-weight: bold;
